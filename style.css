@@ -1,0 +1,121 @@
+/*
+
+body{
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+    background-color: #ffc;
+    margin: 20px;
+    padding: 0;
+}
+*/
+/* This is a comment, by the way 
+Tämä on Karin testi Google-kotisivun tekemiseksi 18.11.2016*/
+
+
+ div  {
+	 height:200px;
+	 background-color:white;
+    
+
+}
+
+div:nth-child(2) {
+	height:400px; 
+	background-color:white;
+	
+	
+}
+
+div:nth-child(3) {
+	height:100px; 
+	background-color:#D2B9B9;
+}
+
+div:nth-child(2) > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#teksti_keskelle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 450px;
+	height: 20px;
+}
+#taulukko_oikeaan_yläkulmaan {
+	display: right;
+    margin-left: auto;
+    margin-right: auto;
+	
+}
+
+
+.menu {
+        width: auto;
+        float: flex;
+		text-align: center;
+		border="1";
+		
+    }
+
+
+
+
+.menu1 {
+        width: auto;
+        display: inline-table;
+		float:left;
+		border: 1;
+    }
+/*tämä pitää tehdä ylös oikealle*/	
+.menu2 {
+        width: auto;
+        display: inline-table;
+		float:right;
+    }
+
+
+.ylos_oikealle {
+    float: right;
+    width: auto;
+    }
+	
+
+	p {
+		text-align:center;
+		
+	}
+	
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    text-align: center;
+
+}
+
+li {
+    /*display: inline;*/
+	display:float;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1px 1px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
